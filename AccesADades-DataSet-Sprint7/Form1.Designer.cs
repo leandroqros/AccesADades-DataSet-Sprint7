@@ -52,18 +52,18 @@ namespace AccesADades_DataSet_Sprint7
             this.lblNom.AutoSize = true;
             this.lblNom.Location = new System.Drawing.Point(116, 85);
             this.lblNom.Name = "lblNom";
-            this.lblNom.Size = new System.Drawing.Size(44, 13);
+            this.lblNom.Size = new System.Drawing.Size(84, 13);
             this.lblNom.TabIndex = 2;
-            this.lblNom.Text = "Nombre";
+            this.lblNom.Text = "Tipo de Especie";
             // 
             // lblPass
             // 
             this.lblPass.AutoSize = true;
             this.lblPass.Location = new System.Drawing.Point(312, 85);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(53, 13);
+            this.lblPass.Size = new System.Drawing.Size(119, 13);
             this.lblPass.TabIndex = 3;
-            this.lblPass.Text = "Password";
+            this.lblPass.Text = "Descripcion de Especie";
             // 
             // bntVT
             // 
@@ -77,9 +77,11 @@ namespace AccesADades_DataSet_Sprint7
             // 
             // dtgMain
             // 
+            this.dtgMain.AllowUserToAddRows = false;
             this.dtgMain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgMain.Location = new System.Drawing.Point(12, 140);
             this.dtgMain.Name = "dtgMain";
+            this.dtgMain.ReadOnly = true;
             this.dtgMain.Size = new System.Drawing.Size(776, 298);
             this.dtgMain.TabIndex = 5;
             // 
@@ -92,7 +94,7 @@ namespace AccesADades_DataSet_Sprint7
             // 
             // bntAtt
             // 
-            this.bntAtt.Location = new System.Drawing.Point(257, 27);
+            this.bntAtt.Location = new System.Drawing.Point(233, 27);
             this.bntAtt.Name = "bntAtt";
             this.bntAtt.Size = new System.Drawing.Size(108, 34);
             this.bntAtt.TabIndex = 7;
